@@ -1,0 +1,221 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(124, 124, 244);
+  color: greenyellow;
+}
+
+.App {
+  width: 35%;
+  margin: 0px auto;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(4, 4, 131);
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 70%;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  color: rgb(4, 4, 131);
+}
+
+button {
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  cursor: pointer;
+  background-color: greenyellow;
+  color: rgb(4, 4, 131);
+  border: 1px solid rgb(4, 4, 131);
+}
+
+button:hover {
+  background-color: rgb(4, 4, 131);
+  color: greenyellow;
+  border-color: greenyellow;
+}
+
+input, button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+input::placeholder {
+  color: rgb(172, 255, 47);
+}
+
+.todoList__container {
+  margin-top: 3rem;
+  padding: 0rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.todoList__Container__todos {
+  width: 100%;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+}
+
+.todoItem input {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.icon {
+  font-size: 1.7rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.editIcon {
+  color: rgb(255, 166, 0);
+}
+
+.editIcon:hover {
+  color: rgba(255, 166, 0, 0.726);
+}
+
+.deleteIcon {
+  color: red;
+}
+
+.deleteIcon:hover {
+  color: rgba(255, 0, 0, 0.724);
+}
+
+.finishedIcon {
+  color: rgb(153, 255, 0);
+}
+
+.finishedIcon:hover {
+  color: rgba(153, 255, 0, 0.734);
+}
+
+
+.select__container {
+  margin-bottom: 3rem;
+}
+
+.finishedTodo {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+}
+
+.todoAlertText {
+  font-size: 3rem;
+  margin: 3rem 2rem;
+  color: red;
+}
+
+.editingText {
+  color:  rgba(34, 34, 217, 0.618);
+}
+
+.todoList__Container__todos input {
+  flex: 1;
+}
+
+.todoList__Container__todos .icons {
+  padding-left: 1rem;
+}
+
+.redAlert {
+  background-color:rgb(255, 0, 0, 0.6);
+}
+
+.greenAlert {
+  background-color: rgba(173,255,47,0.6);
+}
+
+.orangeAlert {
+  background-color: rgba(255, 165, 0, 0.6);
+}
+
+.alert {
+  width: 50%;
+  margin: 0px auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(4, 4, 131);
+}
+
+.clearButton {
+  padding: 0.5rem;
+  background-color: red;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.clearButton:hover {
+  padding: 0.5rem;
+  color: red;
+  border-color: red;
+}
+
+.select__container {
+  color: greenyellow;
+}
+
+/*  */
+.MuiOutlinedInput-notchedOutline {
+  border-width: 3px !important;
+  border-color: greenyellow !important;
+}
+
+.labelColor {
+  color: greenyellow !important;
+  font-weight: 600 !important
+}
+
+.MuiSelect-select {
+  color: greenyellow !important;
+  font-weight: 600 !important;
+  font-size: 1.2rem !important
+}
+
+.MuiSvgIcon-root {
+  color: greenyellow !important;
+  font-size: 2rem !important
+}
+
+.MuiButtonBase-root {
+  color: greenyellow !important;
+  font-size:1.3rem !important;
+  font-weight: 600 !important;
+}
+
+.MuiButtonBase-root:hover {
+  background-color: rgb(124, 124, 244) !important
+}
+
+.MuiPaper-root {
+  background-color:  rgb(4, 4, 131) !important
+}
